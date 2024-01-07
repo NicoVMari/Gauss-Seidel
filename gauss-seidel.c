@@ -34,7 +34,7 @@ int main(int argc, char const *argv[]){
     fscanf(fp, "%d", &dim);
     printf("La dimensione del sistema e' %d \n", dim);
 
-    printf("Sistema lineare rappresentato come A*B\n");
+    printf("Sistema lineare rappresentato come A e B\n");
     for (int i = 0; i < dim; i++) { 
         printf("(");
         for (int j = 0; j < dim; j++) {
