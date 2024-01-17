@@ -5,7 +5,7 @@
 #include <libgen.h>
 
 #define MAXDIM 30
-#define MAX_ITER 40
+#define MAX_ITER 100
 
 float A[MAXDIM][MAXDIM],B[MAXDIM],X[MAXDIM],XT[MAXDIM];
 
